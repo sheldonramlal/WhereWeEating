@@ -52,7 +52,7 @@ const Display = () => {
   return (
     <div className=' flex flex-col  justify-between items-center' style={{height:"85vh"}}> 
 
-        <div className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg drop-shadow-lg overflow-y-scroll'>  {/* card */}
+        <div className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg shadow-[#106ae0] shadow-lg overflow-y-scroll'>  {/* card */}
             
             <div className='w-full h-3/5 flex items-center justify-center '>
                  <div className='w-full h-full  overflow-hidden'>  {/* image */}
@@ -98,8 +98,8 @@ const Display = () => {
                     )
                 }
 
-                <div className='pt-6 relative '>
                     {/* 
+                <div className='pt-6 relative '>
                    <div className='flex flex-row items-center  pb-2'>
                         <p className='font-poppins text-xl inline-block'>Reviews</p>
 
@@ -128,8 +128,8 @@ const Display = () => {
                     <div className='flex justify-center mt-7'>
                         <button className='border border-black text-black font-poppins p-2 rounded-lg'>More Reviews</button>
                     </div>
-                   )} */}
                 </div>
+                   )} */}
             </div>
         </div>
 
