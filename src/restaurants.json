@@ -1,0 +1,323 @@
+{
+    "Restaurants": [
+        {
+            "name" : "TGI Fridays",
+            "rating": "3.9",
+            "description": "this is a restaurant", 
+            "price" : "$$$",
+            "image" : "Tgi.png",
+            "menu" : "https://tgif-tt.com/delivery/",
+            "reviews" : [
+                {
+                    "content" :  "Waitress was really cool; helpful and she had a great sense of humour; the food was actually great..we took the chicken platter, loaded buffalo fries, brocoli cheese soup  mozzarella sticlks and a burger.... everything was seasoned well, fresh and tasted delicious",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Drinks... TGI is consistent. Drinks alwys great and you can freely express whdm something us not to your liking.Excellent service.",  
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Experience during restaurant week is the reason for the low review. Ordered at 730pm received at 10pm for dine in service. The food itself was not up to basic standards. Generally they provide better quality food and services",  
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Have not been here in a while and the food experience was meh. The kids meal - tenders, was quite overdone and stiff. Our server, who was very helpful, took the plate back for it to be redone. The burger bun for the adult meal was a poor choice - almost an afterthought. The bun itself is two times the size of the patty and a day from being stale. Service was good, but we came for the food!.",  
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Today I came an ordered food and had to wait 1 hour and 30 mins for my food, I understand that people that called before got there food first but why is it people that came an order after me recieved their food in a timely manner, this is just bad customer service, their food is wonderful otherwise but work on distribution.....EDITED. 1/7/2022 this is the second time I have come to this establishment for the week and I had to wait more than a hour for fries and chicken strips and when it came it was not even hot, most disappointing I shall be giving TGIF a break since customer service can't seem to improve",  
+                    "rating" : 1.0
+                }
+
+
+            ],
+            "onlineOrder": true,
+            "orderhref":  "https://cdn.tictuk.com/webviewFlow/takeDeliveryType.html?l=en&c=8131701378367885&ref=chainWeb",
+            "showmenu" : false
+        },
+        {
+            "name" : "KFC",
+            "rating": "3.8",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "kfc-logo.webp",
+            "menu" : "https://www.kfc.tt/menu/overview",
+            "reviews" : [
+                {
+                    "content" :  "Great ambience",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Very rude worker, a large lady of east Indian descent who I saw kiss her teeth and roll her eyes at people before me for simply asking for a bag etc",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Never has condiments,workers have bad attitude",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "At this point I just feel like getting the absolute bare minimum of at least decent customer service from a KFC is wanting too much, that aside now the quality of side orders aren't to standard either.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "What I thought would of been a good experience were one of my worse dining experiences. I experienced bad service at this branch in which they skipped my order and went on to serve others who ordered after me. My order were only regarded when I had to call out a server. Also the inside of this KFC branch is disgusting. Very unclean. And the washrooms smell very strong of urine from the outside which makes it hard to sit down and eat",
+                    "rating" : 1.0
+                }
+
+
+            ],
+            "onlineOrder": true,
+            "orderhref": "https://www.kfc.tt/store-selection",
+            "showmenu" : false
+        },
+        {
+            "name" : "Subway",
+            "rating": "3.9",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "sub.jpg",
+            "menu"  : "https://www.subway-tt.com/menu",
+            "reviews" : [
+                {
+                    "content" :  "Service cannot get any better. Service like a five star restaurant",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "One of the subway girls suggested that pineapple in the sub will make it more delicious and she was right. Kudos to that chic, I didn't get her name tho. So try the pine. Make sure u put the shadow beni sauce on the pine.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Restaurant was clean and the food was good but it took way to long to get one toasties and 3 cookies. Need to improve on the speed of service.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "I had a 6 inch sunrise sub, what made the experience poor was the over cooked egg. And to top it off, i ordered a French vanilla coffee, but instead got mocha.....which im not a fan..... All this meal did for me was to stop my hunger.....",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "I ordered a subway on the 12/12/23 at 3:48pm I had already paid for it thru my linx card I was calling and calling and there was no answer at 7:23pm I finally got an answer and they said they will deliver it at 11am the next day and that came late as well it was not what I ordered the food was cold and the drink they gave me what not what I paied for",
+                    "rating" : 1.0
+                }
+               
+
+            ],
+            "onlineOrder": true,
+            "orderhref": "https://orders.subway-tt.com/takeaway/menus.php",
+            "showmenu" : false
+        },
+        {
+            "name" : "Mcdonalds",
+            "rating": "3.8",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "mcd.png",
+            "menu" : "https://www.mcdonalds.com.tt/products/burgers-and-sandwiches",
+            "reviews" : [
+                {
+                    "content" :  "Drive-thru option is quite efficient. Receiving your order possibly in a minute after you complete your payment.Menu is very pricey.Food is good.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Tasty fast food. Great prices. Chicken is the best.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Bought 2 kids happy meals for a 4 & 10 year old. I understand it's a kids meal but seriously, a Gerber fruit pouch for babies you are giving to that age group as well?! That was so disappointing & utterly ridiculous.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Never has ice cream or the new products that are advertised. Other than that they're okay for fast food and their milkshakes are pretty good.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Tried the American BBQ chicken burger. The “bacon” was likely raw. It tasted gross and chewy and doesnt even look like real bacon. Terrible quality at this branch. At least the staff was courteous during my visits.",
+                    "rating" : 1.0
+                }
+                
+
+
+            ],
+            "onlineOrder": false,
+            "showmenu" : true
+            
+        },
+        {
+            "name" : "Pizza hut",
+            "rating": "3.8",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "pizzahut.jpg",
+            "menu" : "https://www.pizzahut-tt.com/en/menu.html",
+            "reviews" : [
+                {
+                    "content" :  "I love it here it's was a little cold but it's great. Service was great Parking: The time I went there were space I believe about 10 spots or 8spots I cannot recall",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Tried a veggie melt, it tasted great, could eat for lunch and dinner, it's a go to for a weekly lunch, price is reasonable and the quantity is sufficient.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "It was the longest wait time in history.  From being the first physical order at 10 am and being told 20 to 25 mins to only receive the order at 10:57 am. The one thing I would recommend once there are large online orders you should be honest and update your cashier so the proper expectations can be set for customers who were patiently waiting on their excess of 30 mins on the original time",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "My order was incorrect and had to wait a further 10mins  for another pizza to be made. For the inconvenience and wait I asked if I could get a drink and got a snicker and no response for my reply. While Pizza Hut is cheaper BUT quality of service is definitely Domino's.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "We were seated then had to wait for about 10 minutes before the server came. she forgot to bring water that we ordered. then the pizza and the pasta came and we requested pepper as only ketchup was on the table. There was no pepper of any form, had to go next door to buy bertie's. Then after tasting the pasta we requested some salt. No Salt Available. Never saw our server after that, had to walk to request the bill and take away boxs. Service was poor and lack of salt an pepper is ridiculous",
+                    "rating" : 1.0
+                }
+
+            ],
+            "onlineOrder": true,
+            "orderhref" : "https://www.pizzahut-tt.com/en/store-locator.html",
+            "showmenu" : false
+        },
+        {
+            "name" : "Offside Restaurant",
+            "rating": "3.9",
+            "description": "this is a restaurant", 
+            "price" : "$$$",
+            "image" : "offside.png",
+            "menu" : "https://www.facebook.com/203010366954556/posts/check-out-our-full-menu/752491125339808/",
+            "reviews" : [
+                {
+                    "content" :  "The sushi was exceptionally made with fresh ingredients and unique flavours. Chef Andres is the best and very talented...🙂 I would highly recommend the service was also great.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Caribbean Bowl ,Mexican Bowl, Empanadas & Bourbon Chicken was a hit, everyone's food was delicious and greatly priced. Service was a little slow, but nothing to make an issue. I will definitely go back.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "The vibe the establishment was good although the seating arrangement was horrible where u were literally seated on top of each other.. Tables are extremely too close to each other. The food left me wanting to get food elsewhere.. It was salt and underwhelming.. Actually had to send back food.. Service cud have been quicker but for a Saturday night it was OK. Vegetarian options: Actually had a pepper tofu taco",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Had the loco coco for the first time last year and it was really good so I went back this year for it again but it was disappointing. It literally tasted like a sour tomato soup. The first time I had it i tasted coconut milk and tomato and it was mellow and sweet with the milk. The buffalo wings was also salty and to tiny.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Absolutely horrible service, had food served with hair in it, waitress and manager with disgusting attitudes, will definitely not be going back there",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
+        },
+        {
+            "name" : "519 ",
+            "rating": "4.1",
+            "description": "this is a restaurant", 
+            "price" : "$$$",
+            "image" : "519.jpg",
+            "menu" : "https://519trinidad.com/menu/",
+            "reviews" : [
+                {
+                    "content" :  "Went on a Sunday night, 519 was a whole vibe! I loved the atmosphere, music and food looked great though, I only had one dish. I saw other tables getting great service, however, we rarely saw our waitress. To get faster service we ran up to the bar to order. I was with good company, yet I noticed the meal took a long time to come out.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Relaxing atmosphere. Drinks were nicely done and I like the big screen that show reruns of the bartender making lovely cocktails and other recaps that were fun to watch. Also we dropped some cash where we were sitting and didn't notice, but thankfully a kind customer brought it to our attention. Thanks to that couple.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "The restaurant is amazing. Food and atmosphere is specular, however, the service is poor. The time it takes from ordering to receive the food is very lengthy and thus can result in customers getting frustrated to not received their food on time or in a timely manner. The staff are mostly kind and respectful, however, there have been an instance when I went and the waiter was very unpleasant because she was having a 'bad day'",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Went in for restaurant week. Slow service, but at least the waiter was friendly. The appetizers were good. Both my date's and my steak were severely overcooked, tough and dry. Broccoli au gratin had a layer of water inside the dish. The cheesecake was a little bit soggy. This was my first time going here, so I might go back just to see if the experience and quality is different.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "The management and staff of the 519 Restaurant should be ashamed of themselves...don't go to other people's Restaurant and cuss and get on and insult people for no good reason...you have no right to speak to anyone that way. What are you all trying to do sabotage people on purpose? You feel that we weren't there and witnessed the whole thing this evening...you did not think that people know who you all were and where you work? You all work in the Restaurant industry and KNOW what it involves but still coming to spitefullly complain on purpose. If the same thing is done to you at your Restaurant would you like it??? I think not...you all know who you are...check yourselves!!!",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
+        },
+        {
+            "name" : "Buzz Bar ",
+            "rating": "4.2",
+            "description": "this is a restaurant", 
+            "price" : "$$$",
+            "image" : "buzz.png",
+            "menu" : "https://buzzbartt.com/c3-menu/",
+            "reviews" : [
+                {
+                    "content" :  "Food was superb,atmosphere was very nice,great customer service and the price was reasonable will definitely be back.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "We found Mahi Mahi was under seasoned and over cooked. The kamikaze chicken was excellent, and so, too, was the desert brownie and ice cream",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "When the only place to be on Sunday is at Brunch ..Good options, reasonable portions and fairly priced.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Service was incredibly slow. We ordered the buzz platter, and the food was just okay. It took more than 20 minutes to get our drinks, and the ice had already melted. Would not be coming here again.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Cheap-tasting drinks and poor service. The menu is a QR code you have to scan.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
+        },
+        {
+            "name" : "Mamma Mia ",
+            "rating": "4.4",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "mmpng.png",
+            "menu" : "https://mammamiatt.com/menu/",
+            "reviews" : [
+                {
+                    "content" :  "Celebrated my son's 14th birthday here. Once again, great service, amazing food, very accomodating to fit your requested needs. By now it's my family and myself favorite and go to place, whether it's for Gelato, desserts, take out and best of all dinning...",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Unfortunately I didn't know you had to reserve tables, and it was booked up on a Friday, so you should definitely reserve.I was only able to have dessert and coffee at this location but it was excellent. The pastries and cakes were very very good AND I had some of their gelato. Even though we couldn't be seated, the staff offered us seating at the front of the bar but we declined. They were excellent and gracious and I will definitely be a return customer.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Usually very lovely! The staff are always helpful, so they get a 10/10 I usually get their macarons as they are usually very good! Even if the price is $22 I usually find it worth it for their unique flavours, my favourite so far being their mojito macaron. Today I got the pistachio macaron and their lemon-passion fruit macaron.The pistachio macaron tastes just like plain cream. Tastes good, but very plain and not the usual quality I expect. The lemon passion fruit macaron, no lemon taste, and the teeniest, tiniest hint of passion fruit. Again, didn't taste bad, just dissapointing since I'm so used to their fantastic flavours. Perhaps their quality has deteriorated recently and I didn't realise till after I spent my $44",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "The food was very tasty and the ambience was lovely. I also enjoyed the drinks and desert.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Terrible customer service experience. A young lady at the Grande Bazaar location short changed me $5. and became very annoyed when I pointed it out. She said that the advertised price was wrong and she gave me the correct change based on the “actual price” of the item (lol what?). I very quietly explained to her that I would have selected the item based on the advertised price and that the error should have been communicated before taking my money. She twisted her face, making a gesture of indifference and walked off. I stood there in mild disbelief when another young lady who observed the interaction came across and asked me how much I was shorted. The first young lady upon seeing the exchange that was now taking place walked back to the counter and expressed quite audibly “just give she she $5.” before taking $5. out of the tip jar, carelessly placing it on my box and walking off again. I can’t stress enough that if this person handled the situation differently I would have easily forfeited the difference and be on my way but I don’t think that reaction was warranted simply because I pointed out an inefficiency on her part. The second young lady very quietly apologized for the entire interaction and wished me a pleasant night which I return to her before leaving. Trust that I was still very annoyed by every aspect of this transaction and will certainly not subject myself to such poor customer service in the future.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
+        }
+    ]
+}
