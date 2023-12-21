@@ -75,13 +75,13 @@ const Display = () => {
                                  <p className='text-green-600 font-medium'>{restaurants.price}</p>
                             </div>
                         </div>
-                    {/* 
-                    <div>
-                        <a href={`${restaurants.menu}`} target="_blank">
-                             <button  className='bg-red-600 text-white font-poppins p-2 rounded-lg'>Menu</button>
-                        </a>
-                    </div>
-                    */}
+                            {/* 
+                            <div>
+                                <a href={`${restaurants.menu}`} target="_blank">
+                                    <button  className='bg-red-600 text-white font-poppins p-2 rounded-lg'>Menu</button>
+                                </a>
+                            </div>
+                            */}
                 </div>
                 {
                     restaurants.onlineOrder && (
@@ -98,7 +98,7 @@ const Display = () => {
                     )
                 }
 
-                    {/* 
+                    
                 <div className='pt-6 relative '>
                    <div className='flex flex-row items-center  pb-2'>
                         <p className='font-poppins text-xl inline-block'>Reviews</p>
@@ -120,16 +120,16 @@ const Display = () => {
                    {
                     <Reviews reviews={restaurants.reviews} />
                    }
-                */}
+                
                   
                   {/* 
                   {restaurants.reviews && (
 
                     <div className='flex justify-center mt-7'>
                         <button className='border border-black text-black font-poppins p-2 rounded-lg'>More Reviews</button>
-                    </div>
+                  </div> */}
                 </div>
-                   )} */}
+                    
             </div>
         </div>
 
