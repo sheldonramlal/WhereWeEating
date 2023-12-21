@@ -50,7 +50,7 @@ const Display = () => {
     console.log(resData.length);
     
   return (
-    <div className=' flex flex-col  justify-between items-center' style={{height:"90vh"}}> 
+    <div className=' flex flex-col  justify-between items-center' style={{height:"85vh"}}> 
 
         <div className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg drop-shadow-md overflow-y-scroll'>  {/* card */}
             
@@ -99,6 +99,7 @@ const Display = () => {
                 }
 
                 <div className='pt-6 relative '>
+                    {/* 
                    <div className='flex flex-row items-center  pb-2'>
                         <p className='font-poppins text-xl inline-block'>Reviews</p>
 
@@ -107,7 +108,7 @@ const Display = () => {
                         </svg>
                         </p>
                 
-               </div>
+                     </div>
                     {
                         showInfo && (
                             <div className='mb-7 -mt-3'>
@@ -115,10 +116,11 @@ const Display = () => {
                             </div>
                             )
                     }
-
+                
                    {
                     <Reviews reviews={restaurants.reviews} />
                    }
+                */}
                   
                   {/* 
                   {restaurants.reviews && (
