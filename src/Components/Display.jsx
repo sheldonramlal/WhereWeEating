@@ -55,7 +55,7 @@ const Display = () => {
         <div className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg drop-shadow-lg overflow-y-scroll'>  {/* card */}
             
             <div className='w-full h-3/5 flex items-center justify-center '>
-                 <div className='w-full h-full bg-gray-300 overflow-hidden'>  {/* image */}
+                 <div className='w-full h-full  overflow-hidden'>  {/* image */}
                   <img className=' object-fill h-full w-full' src={`/${restaurants.image}`} />
                  </div>
             </div>
