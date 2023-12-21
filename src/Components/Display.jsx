@@ -36,11 +36,17 @@ const Display = () => {
          setRestaurants(resData[newRandom])
     }, [])
 
+ 
+    const scrollDiv = document.getElementById('card')
 
     const handleClick = () => {
         const genRand = generateNewRandom()
         setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand])
         setRestaurants(resData[genRand])
+        
+       if(scrollDiv){
+        scrollDiv.scrollTop = 0
+       }
     }
 
 
@@ -52,7 +58,9 @@ const Display = () => {
   return (
     <div className=' flex flex-col  justify-between items-center' style={{height:"85vh"}}> 
 
-        <div className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg shadow-[#444444aa] shadow-lg overflow-y-scroll'>  {/* card */}
+        <div id='card' className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg shadow-[#444444aa] shadow-lg overflow-y-scroll'
+        
+        >  {/* card */}
             
             <div className='w-full h-3/5 flex items-center justify-center '>
                  <div className='w-full h-full  overflow-hidden'>  {/* image */}
