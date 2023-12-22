@@ -58,7 +58,7 @@ const Display = () => {
   return (
     <div className=' flex flex-col  justify-between items-center' style={{height:"85vh"}}> 
 
-        <div id='card' className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg shadow-[#444444aa] shadow-lg overflow-y-scroll'
+        <div id='card' className='border w-11/12 h-3/4 bg-white mt-7 rounded-lg shadow-[#444444aa] shadow-lg overflow-y-scroll md:w-2/4 '
         
         >  {/* card */}
             
