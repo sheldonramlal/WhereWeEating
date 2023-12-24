@@ -390,6 +390,114 @@
             "onlineOrder": false,
             "orderhref" : "",
             "showmenu" : true
+        },
+        {
+            "name" : "Royal Castle",
+            "rating": "3.9",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "royal.png",
+            "menu" : "https://www.facebook.com/RoyalCastleTrinidadTobago/photos/p.1457859941043724/1457859941043724/?type=3",
+            "reviews" : [
+                {
+                    "content" :  "To the staff..i am so sorry for not taking ur name...but keep up the good work. You were so pleasant and helpful. First time a restaurant called back to take an order. I am shocked and impressed. Not only did she call back she was pleasant. .. even advised that the delivery guy was outside on a delivery and that once he comes back i would get a call.. gave the total and the advided as to they wouldnt be able to take a linx. Thank you for been human..... keep it up.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Good portion sizes on fries. Chicken pieces is also good",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "The service was quick however the chicken was over fried",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Customer service needs work. Waited 10mins for sandwiches then had to request forks, looks like forks,condiments and napkins have to be requested when purchasing food.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Worst ever nex time I buying KFC it took 50 minutes to go a few houses nearby and they gave me 1 ketchup and 1 mustard for a 3 piece that making any sense how u expect to give someone one ketchup de workers does move like if they paying for it nex time I buying KFC alyuh lucky KFC close tday I gave alyuh d sale ROYAL CASTLE IS A WASTE OF TIME",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
+        },
+        {
+            "name" : "Church's chicken",
+            "rating": "3.9",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "church's.png",
+            "menu" : "",
+            "reviews" : [
+                {
+                    "content" :  "Their biscuits are to die for. The holiday biscuits are even better.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "It's just a quiet vibe no rush no long lines",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "They Need to work on their online order collection service. I Ordered in advance, arrived, saw my order already prepared and waiting, went to the pick up cashier only to be told I have to go to the main cashier with at least 20 people lined up to cash for my order. Instead of walking out, I Still waited in the line and upon reaching this cashier, I was instructed to go to the online cashier which now had a line as well. There the online cashier came over and cashed me.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Service here is very slow, and the females that work there are highly disrespectful! One of the worst fast food outlets in my opinion",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "I'm so sorry the service at the marabella/point a pierre branch is horrible. On several of my visits the staff had a very very bad attitude. However, the plus is the chicken tasted good.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": true,
+            "orderhref" : "https://tt.churchstexaschicken.com/order/",
+            "showmenu" : false
+        },
+        {
+            "name" : "Domino's pizza",
+            "rating": "4.2",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "dominos.png",
+            "menu" : "",
+            "reviews" : [
+                {
+                    "content" :  "Domino's is my top pizza personally and they never disappointed me yet, their thin crusts are always super crunchy and I love that, they don't skimp on the toppings (thank you for that), I never had to wait for my pizza (most times I order online but even if I order say 15 minutes away from the place the food is ready when I arrive) the service is great and the staff are friendly",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "It was a good experience to sit and have a meal with friends, clean tables and environment just the cashier was a little hard to deal with due to not being able to explain a few of the menu items when asked about it.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "I saw a great difference with ethnicity. A colleague of mine was there at the same time and we both bought the same thing and the cashier opened the door for she to exit and there I was struggling to open the door and exiting. It outright of racialism there",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Okay food choices but they're the highest price around. There are loads of cheaper options with better tasting pizza.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Ordered my pizza for pick up at la romain branch and my pizza was burnt. They should not give a customer a burnt pizza",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": true,
+            "orderhref" : "https://www.dominos.tt/en/pages/order/#!/locations/search/",
+            "showmenu" : false
         }
     ]
 }
