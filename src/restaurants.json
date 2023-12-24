@@ -498,6 +498,42 @@
             "onlineOrder": true,
             "orderhref" : "https://www.dominos.tt/en/pages/order/#!/locations/search/",
             "showmenu" : false
+        },
+        {
+            "name" : "Popeyes",
+            "rating": "4.1",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "Popeyes.png",
+            "menu" : "https://www.facebook.com/popeyestt/menu/?id=100064786834159&sk=menu",
+            "reviews" : [
+                {
+                    "content" :  "OMG i like POPEYES.... TASTE. REALLY GOOD",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Grandson has tried different fried chickens fro. Kfc to other local fast food.  Says this the best fried chicken tasted in trinidad. Vegetarian options: Tasty",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "It was great. The kids enjoyed it. Personally I thought it was too chrispy, and under cooked a bit",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Too stingy with the fries.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "I personally do not like the taste of Popeyes especially their fries. Also I spent $200 ttd on food and when I asked for a boat I was charged $1.00 ttd. Also tenders were way overpriced. Definitely would not be going back to Popeyes.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
         }
     ]
 }
