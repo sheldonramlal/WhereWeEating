@@ -354,6 +354,42 @@
             "onlineOrder": true,
             "orderhref" : "https://www.kaizansushi.com/takeaway/menus.php",
             "showmenu" : false
+        },
+        {
+            "name" : "Town Restaurant",
+            "rating": "4.3",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "town.png",
+            "menu" : "https://www.towntt.com/menu",
+            "reviews" : [
+                {
+                    "content" :  "The food and service was great. I would have given 4.5 stars if it was a option, because the crab back appetizer was OK, too much bread used. However the other food items made up for it. Fried Wonton, Pepper Shrimp, vegetable fried rice and vegetable chow mein were great. I would definitely   go back when I visit Trinidad again. 🇹🇹 the ambience was very nice.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Town Restaurant and Bar is my go to restaurant for a lunchtime lime with the girls. We are in love with the fried calamari, every single time we go we order that. The ambience is always wonderful with great, quick service. The bartender's are very friendly and approachable and they mix the best drinks 😋. Always an enjoyable time at Town.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Food is delicious, would definitely try again. Clean and well designed space. Nice restrooms. Serving staff is ok, the waiter was great but the host nearly made us go find another restaurant. The food was lukewarm which means I'm sure it could be much better if served hot. Music was techno which was not ideal for a chill meal.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "I visited town restaurant for my birthday and was deeply disappointed in the experience. We reserved a table outside and the ambiance was really poor. The server was hostile and  rushing us to order, and when we did order our food, it took a while to arrive. The drinks were places on our paper menus, without a coaster making it hard to read the menu. When we asked for at least a napkin, we were told there wasn’t any. For such high prices, I was expecting a better experience. Will not be visiting again.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "I made a reservation for 5 ppl for lunch at 12 . I have eaten here many times and the food was always great . Today , everything was smothered in the same Sauce and it lacked its quality . I was disappointed and did let the manager know . We paid the $895 bill and left .",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true
         }
     ]
 }
