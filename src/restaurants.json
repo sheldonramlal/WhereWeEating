@@ -318,6 +318,42 @@
             "onlineOrder": false,
             "orderhref" : "",
             "showmenu" : true
+        },
+        {
+            "name" : "Kaizan Sushi ",
+            "rating": "4.3",
+            "description": "this is a restaurant", 
+            "price" : "$$",
+            "image" : "kaizen.jpg",
+            "menu" : "https://mammamiatt.com/menu/",
+            "reviews" : [
+                {
+                    "content" :  "Such a lovely experience here. From food to service, we left w happy tummies and a feeling of satisfaction. The best roll in my opinion is their volcanic eruption... so, so good! Prices are also pretty good, esp if you utilize their specials.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "I usually have sushi delivered from Kaizan due to the pandemic and it has been extremely wonderful, favourites being pepper squid, TnT Dynamite and Volcano roll! But I digress, beautiful, clean place. I enjoy their use of space to make it seem much bigger than it is. While we were waiting on our entrée the manager visited us to ensure that we were enjoying ourselves. That was a first time experience to me in a Trinidad restaurant. Kaizan knows their stuff! We had a very sweet waitress that double checked our order every step of the way. Man that rice bowl was extremely stuffing 🤣 I didn't expect that at all. I had the peanut Thai chicken. Exquisite taste and I was extremely satisfied by it. I slept like a baby when I get home",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "I think the menu lacks variety, and prices are high. Service can be hit or miss. The sushi is very good, however, the other dishes and appetizers are nothing special, for the amount they cost.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "ALL YOU CAN EAT FIASCO! After being seated, the waitress avoided eye contact with us for a while, after a while when I noticed another waitress take the order of a table that came two parties after us and called her over then she called the waitress assigned to us. The calamari that was ordered first didnt reach the table till 45 mins after , when trying to order second round could not get the waitress to come to our table even  though we told her we wanted to order again. The strategy seemed to be to draw out the experience unnecessarily. Very unpleasant night out. I would NOT recommend this to anyone. The food tasted good.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "Atrocious. No other word to describe it. I came here on March 13th for their advertised 'Buddha Belly' buffet. I showed up at 7:14PM. It took 15 minutes for a waitress to even glance in our direction, and I had to flag them down. Not off to a great start considering they were operating under reservations only and not exactly swamped, but okay. I and my friend placed our orders at 7:30 sharp. We walked out at 9 having received not a single thing. We got two drinks we ordered outside of the Buddha special, but food? Not even a grain of rice. We were lucky to share a single piece of calamari and one roll (of three ordered the rest of which never came) from another friend that arrived 15 minutes before us. We kept giving them the benefit of the doubt. Kept having to try and angle ourselves and fight to get our waitress to glance at us to ask her anything. But at 9PM our patience ran out. I skipped lunch in anticipation of a nice sushi dinner, and now it's 9:30 and I'm here writing this review while waiting on food from another restaurant because I'm starving and annoyed and just frankly fed up.Kaizen has the honor of earning my first ever 1-star review. This is the first time in my life I've walked out of a restaurant having decided never to return because of the service and not the food. Spare yourself the disappointment and just go to More Vino or Bottles and Bites. They have better food, similar prices, and infinitely superior service. Dietary restrictions: Ramadan friendly. If you're Muslim and fasting, you can safely visit Kaizen without breaking your fast.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": true,
+            "orderhref" : "https://www.kaizansushi.com/takeaway/menus.php",
+            "showmenu" : false
         }
     ]
 }
