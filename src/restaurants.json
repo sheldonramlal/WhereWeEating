@@ -324,7 +324,7 @@
             "rating": "4.3",
             "description": "this is a restaurant", 
             "price" : "$$",
-            "image" : "kaizen.jpg",
+            "image" : "Kaizen.jpg",
             "menu" : "https://mammamiatt.com/menu/",
             "reviews" : [
                 {
