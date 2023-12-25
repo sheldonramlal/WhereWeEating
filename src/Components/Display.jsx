@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import restaurantsData from '../restaurants.json'
 
 import Reviews from './Reviews'
+import Distance from './Distance'
 
 
 const Display = () => {
@@ -82,7 +83,11 @@ const Display = () => {
                             <div className='ml-5'>
                                  <p className='text-green-600 font-medium'>{restaurants.price}</p>
                             </div>
+                            
+                            
+                            
                         </div>
+                        <Distance coordinates={restaurants.coordinates}/>
                             {/* 
                             <div>
                                 <a href={`${restaurants.menu}`} target="_blank">

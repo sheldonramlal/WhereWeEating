@@ -33,7 +33,19 @@
             ],
             "onlineOrder": true,
             "orderhref":  "https://cdn.tictuk.com/webviewFlow/takeDeliveryType.html?l=en&c=8131701378367885&ref=chainWeb",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat" : 10.258664583057218, 
+                    "lon" : -61.468869862225226
+                },
+                {
+                    "lat": 10.664510541221448,
+                    "lon": -61.51459328666283
+                }
+               
+            ]
+           
         },
         {
             "name" : "KFC",
@@ -389,7 +401,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat":10.662444584334425,
+                    "lon": -61.51682864510764
+                }
+            ]
         },
         {
             "name" : "Royal Castle",
