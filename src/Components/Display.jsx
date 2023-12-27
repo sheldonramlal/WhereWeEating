@@ -6,6 +6,7 @@ import Reviews from './Reviews'
 import Distance from './Distance'
 
 
+
 const Display = () => {
 
     const [restaurants, setRestaurants] = useState({})
@@ -61,10 +62,10 @@ const Display = () => {
             return newRandom;
     };
 
-    const generateNewRandomSorted = (arr) => {
-        let newRandom = Math.floor(Math.random() * arr.length);
+    const generateNewRandomSorted = (array) => {
+        let newRandom = Math.floor(Math.random() * array.length);
         while (previouslyShownRestaurants.includes(newRandom)) {
-            newRandom = Math.floor(Math.random() * arr.length);
+            newRandom = Math.floor(Math.random() * array.length);
         }
        
         return newRandom;
@@ -128,9 +129,9 @@ const Display = () => {
           if (isChecked) {
             
          
+        const newRandom = generateNewRandomSorted(arr)
           setPreviouslyShownRestaurants([])
 
-          const newRandom = generateNewRandomSorted(arr)
           setPreviouslyShownRestaurants([...previouslyShownRestaurants, newRandom])
 
         
@@ -189,15 +190,18 @@ const Display = () => {
     const scrollDiv = document.getElementById('card')
 
     const handleClick = () => {
+       
+
+
         const genRand = generateNewRandom()
-        setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand])
-
-
         const sortedRandom = generateNewRandomSorted(arr)
         /////
         if(isChecked){
+            setPreviouslyShownRestaurants([...previouslyShownRestaurants, sortedRandom])
             setRestaurants(arr[sortedRandom])
         }else{
+            setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand])
+
             setRestaurants(resData[genRand])
         }
         
