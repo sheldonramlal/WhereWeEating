@@ -3,7 +3,7 @@ import profile from '/profile.png'
 import star from '/star.png'
 
 const Reviews = ({reviews}) => {
-    console.log(reviews);
+    
   return (
 
     <div>

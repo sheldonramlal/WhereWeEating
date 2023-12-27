@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-const Distance = ({ coordinates }) => {
+ const AllDistances = ( {restaurants} ) => {
   const [distance, setDistance] = useState(null);
 
   useEffect(() => {
-    if ('geolocation' in navigator  && coordinates && coordinates.length > 0) {
+    if ('geolocation' in navigator  && restaurants && restaurants.coordinates.length > 0) {
       // Array to store all distance promises
-      const distancePromises = coordinates.map(coord =>
+      const distancePromises = restaurants.map(rest =>
         new Promise((resolve, reject) => {
           navigator.geolocation.getCurrentPosition(
             position => {
@@ -15,8 +15,8 @@ const Distance = ({ coordinates }) => {
               const calculatedDistance = calculateDistance(
                 userLatitude,
                 userLongitude,
-                coord.lat,
-                coord.lon
+                rest.coordinates.lat,
+                rest.coordinates.lon
               );
               resolve(calculatedDistance);
             },
@@ -40,7 +40,7 @@ const Distance = ({ coordinates }) => {
     else{
         setDistance(null)
     }
-  }, [coordinates]);
+  }, [restaurants]);
 
   function calculateDistance(lat1, lon1, lat2, lon2) {
     const R = 6371; // Earth's radius in kilometers
@@ -57,16 +57,9 @@ const Distance = ({ coordinates }) => {
     return distance;
   }
 
-  return (
-  <div className='flex items-center font-poppins'>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-    </svg>
-
-    {distance !== null ? `${distance.toFixed(2)} km` : '-'}
-  </div>
-  )
+  return distance
+    
+  
 };
 
-export default Distance;
+export default AllDistances;

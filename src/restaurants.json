@@ -37,11 +37,19 @@
             "coordinates": [
                 {
                     "lat" : 10.258664583057218, 
-                    "lon" : -61.468869862225226
+                    "lon" : -61.468869862225226 
                 },
                 {
                     "lat": 10.664510541221448,
                     "lon": -61.51459328666283
+                },
+                {
+                    "lat": 10.527084904641367,
+                    "lon": -61.40812047792459
+                },
+                {
+                    "lat": 10.62878776247786,
+                    "lon":  -61.353711200536026
                 }
                
             ]
@@ -80,7 +88,70 @@
             ],
             "onlineOrder": true,
             "orderhref": "https://www.kfc.tt/store-selection",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+               {
+                "lat": 10.25750299128571,
+                "lon": -61.469108325689504
+               },
+               {
+                "lat": 10.259674432782765,
+                "lon": -61.460991218889
+               },
+               {
+                "lat": 10.290641708917281,
+                "lon": -61.444706439767934
+               },
+               {
+                "lat": 10.303714117423622,
+                "lon": -61.45012893658336
+               },
+               {
+                "lat": 10.271699529869046,
+                "lon": -61.3755734296423
+               },
+               {
+                "lat": 10.422501510584485,
+                "lon": -61.45386663101065
+               },
+               {
+                "lat": 10.51414937744098,
+                "lon": -61.395784190771685
+               },
+               {
+                "lat":10.565962450271753,
+                "lon": -61.373037970343276
+               },
+               {
+                "lat": 10.675237304482915,
+                "lon": -61.543995057504716 
+               },
+               {
+                "lat": 10.654935681233564,
+                "lon": -61.50791852782092 
+               },
+               {
+                "lat": 10.635551612973243,
+                "lon": -61.41245190767297
+               },
+               {
+                "lat": 10.627052357024525,
+                "lon": -61.35299492575829
+               },
+               {
+                "lat": 10.609186125935057,
+                "lon": -61.26935474903322
+               },
+               {
+                "lat": 10.143744777342576,
+                "lon": -61.508999285164144
+               },
+               {
+                "lat": 10.167947714597538,
+                "lon": -61.45815057836946
+               }
+               
+            ]
         },
         {
             "name" : "Subway",
@@ -115,7 +186,50 @@
             ],
             "onlineOrder": true,
             "orderhref": "https://orders.subway-tt.com/takeaway/menus.php",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat": 10.256948416855803,
+                    "lon": -61.47556661885934
+                },
+                {
+                    "lat": 10.289488333372823,
+                    "lon": -61.444218655923564
+                },
+                {
+                    "lat": 10.30442740318624,
+                    "lon": -61.450602494414
+                },
+                {
+                    "lat": 10.27120837781102,
+                    "lon": -61.37641740488146
+                },
+                {
+                    "lat": 10.421793113353052,
+                    "lon": -61.45465658841364
+                },
+                {
+                    "lat": 10.52759377414054,
+                    "lon": -61.408021354498445
+                },
+                {
+                    "lat": 10.681069692002545,
+                    "lon": -61.571576388028376
+                },
+                {
+                    "lat": 10.656704543097186,
+                    "lon": -61.50975851540234
+                },
+                {
+                    "lat": 10.633900237400013,
+                    "lon": -61.41864818043206
+                },
+                {
+                    "lat": 10.626456684715825,
+                    "lon": -61.35446577354281
+                }
+                
+            ]
         },
         {
             "name" : "Mcdonalds",
@@ -150,7 +264,13 @@
 
             ],
             "onlineOrder": false,
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat":10.257259198714006,
+                    "lon": -61.47505794093674
+                }
+            ]
             
         },
         {
@@ -185,7 +305,13 @@
             ],
             "onlineOrder": true,
             "orderhref" : "https://www.pizzahut-tt.com/en/store-locator.html",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Offside Restaurant",
@@ -221,7 +347,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "519 ",
@@ -257,7 +389,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Buzz Bar ",
@@ -293,7 +431,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Mamma Mia ",
@@ -329,7 +473,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.631031968668289,
+                    "lon": -61.42701410349498
+                }
+            ]
         },
         {
             "name" : "Kaizan Sushi ",
@@ -365,7 +515,13 @@
             ],
             "onlineOrder": true,
             "orderhref" : "https://www.kaizansushi.com/takeaway/menus.php",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Town Restaurant",
@@ -443,7 +599,13 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Church's chicken",
@@ -479,7 +641,13 @@
             ],
             "onlineOrder": true,
             "orderhref" : "https://tt.churchstexaschicken.com/order/",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Domino's pizza",
@@ -515,7 +683,13 @@
             ],
             "onlineOrder": true,
             "orderhref" : "https://www.dominos.tt/en/pages/order/#!/locations/search/",
-            "showmenu" : false
+            "showmenu" : false,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
         },
         {
             "name" : "Popeyes",
@@ -551,7 +725,55 @@
             ],
             "onlineOrder": false,
             "orderhref" : "",
-            "showmenu" : true
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.257899848725595,
+                    "lon": -61.46881070837508
+                }
+            ]
+        },
+        {
+            "name" : "Buzo Osteria Italiana",
+            "rating": "4.4",
+            "description": "this is a restaurant", 
+            "price" : "$$$",
+            "image" : "buzopng.png",
+            "menu" : "http://buzorestaurant.com/menu#nav",
+            "reviews" : [
+                {
+                    "content" :  "Haven't dine in Buzo for awhile Food is still perfect, our server was excellent and informative, Drinks were great, No complaints at all.",
+                    "rating" : 5.0
+                },
+                {
+                    "content" :  "Good experience overall, very impressed with service, decor, ambiance, quality of ingredients and flavors. Only complaint is that it's way too overpriced.",
+                    "rating" : 4.0
+                },
+                {
+                    "content" :  "Ambient is nice, food and wine is good but overpriced. (Pasta self-made) Service is ok...I made reservations for two on our anniversary. There was no gesture from the restaurant regarding our anniversary. The waitress told my wife to put back her chair after she decided to sit next to me. I immediately asked for the bill and left. Personally I won't be spending my money there again.",
+                    "rating" : 3.0
+                },
+                {
+                    "content" :  "Don't be fooled with the food hype! It's a glorified bar. Food is okay, nothing special with taste or presentation. Management may give special attention to certain guests, but it's not worth a visit. The location is also not that safe at night.",
+                    "rating" : 2.0
+                },
+                {
+                    "content" :  "the shrimp pasta had no shrimp , basically minced pieces of shrimp bits , they served us hagen daaz as gelato and that cake was horrible . the coconut water was sour . this place is definitely not worth the hype .way to pricey for the service provided.",
+                    "rating" : 1.0
+                }
+              
+
+
+            ],
+            "onlineOrder": false,
+            "orderhref" : "",
+            "showmenu" : true,
+            "coordinates": [
+                {
+                    "lat": 10.663884715311099,
+                    "lon": -61.517326562309066
+                }
+            ]
         }
     ]
 }
