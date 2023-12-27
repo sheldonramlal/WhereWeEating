@@ -53,23 +53,6 @@ const Display = () => {
       }
     
 
-    const generateNewRandom = () => {
-            let newRandom = Math.floor(Math.random() * resData.length);
-            while (previouslyShownRestaurants.includes(newRandom)) {
-                newRandom = Math.floor(Math.random() * resData.length);
-            }
-           
-            return newRandom;
-    };
-
-    const generateNewRandomSorted = (array) => {
-        let newRandom = Math.floor(Math.random() * array.length);
-        while (previouslyShownRestaurants.includes(newRandom)) {
-            newRandom = Math.floor(Math.random() * array.length);
-        }
-       
-        return newRandom;
-};
 
     const myFunction = (restaurant) => {
         const restaurantsWithin15km = []
@@ -107,58 +90,59 @@ const Display = () => {
             }
         }
     */}
+
     
+    const generateNewRandom = () => {
+        let newRandom = Math.floor(Math.random() * resData.length);
+        while (previouslyShownRestaurants.includes(newRandom)) {
+            newRandom = Math.floor(Math.random() * resData.length);
+        }
+       
+        return newRandom;
+    };
+
+    const generateNewRandomSorted = (array) => {
+        let newRandom = Math.floor(Math.random() * array.length);
+        while (previouslyShownRestaurants.includes(newRandom)) {
+            newRandom = Math.floor(Math.random() * array.length);
+        }
     
+        return newRandom;
+    };
     
+   
+        if (previouslyShownRestaurants.length === resData.length) {
+            setPreviouslyShownRestaurants([]);
+        }
+
     
-    
-    
-    function calculateDistance(lat1, lon1, lat2, lon2) {
-        const R = 6371; // Earth's radius in kilometers
-        const dLat = (lat2 - lat1) * (Math.PI / 180);
-        const dLon = (lon2 - lon1) * (Math.PI / 180);
-        const a =
-        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-        Math.cos(lat1 * (Math.PI / 180)) *
-        Math.cos(lat2 * (Math.PI / 180)) *
-        Math.sin(dLon / 2) *
-        Math.sin(dLon / 2);
-        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        const distance = R * c; // Distance in kilometers
-        return distance;
-    }
-    
-    
-    if (previouslyShownRestaurants.length >= resData.length) {
-        setPreviouslyShownRestaurants([]);
-    }
       
     if(isChecked === true){
+        
         if (previouslyShownRestaurants.length >= arr.length) {
             setPreviouslyShownRestaurants([]);
         }
     }
+       
+ console.log(previouslyShownRestaurants.length);
+
     useEffect(() => {
           
-          if (isChecked) {
+        if (isChecked) { 
+            const newRandom = generateNewRandomSorted(arr)
             
-         
-        const newRandom = generateNewRandomSorted(arr)
-        if (previouslyShownRestaurants.length >= arr.length) {
-            setPreviouslyShownRestaurants([]);
-        }
-
+                if (previouslyShownRestaurants.length >= arr.length) {
+                    setPreviouslyShownRestaurants([]);
+                }
+            
           setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
-
-        
           setRestaurants(arr[newRandom])
         }else{
-            const newRandom = generateNewRandom()
-           
+            const newRandom = generateNewRandom()           
             setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
             setRestaurants(resData[newRandom])
         }
-      }, [isChecked, resData]);
+      }, [isChecked]);
 
       
 
@@ -203,15 +187,15 @@ const Display = () => {
         const genRand = generateNewRandom();
         const sortedRandom = generateNewRandomSorted(arr);
     
-        if (isChecked) {
+        if (isChecked === true) {
             
             setPreviouslyShownRestaurants([...previouslyShownRestaurants, sortedRandom]);
-            console.log(sortedRandom, arr[sortedRandom].name);
+            
             setRestaurants(arr[sortedRandom]);
         } else {
            
             setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand]);
-            console.log(genRand, resData[genRand].name);
+            
             setRestaurants(resData[genRand]);
         }
     
