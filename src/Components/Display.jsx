@@ -73,14 +73,19 @@ const Display = () => {
 
     const myFunction = (restaurant) => {
         const restaurantsWithin15km = []
+        const uniqueRestaurants = new Set()
+
         restaurant.forEach(rest => {
             rest.coordinates.forEach(c => {
             {/*console.log(`${rest.name}, lat: ${c.lat}, lon: ${c.lon}`);
             console.log(`user lat: ${coord.userLatitude}, user lon: ${coord.userLongitude}`) */}
                 let d = calculateDistance(coord.userLatitude, coord.userLongitude, c.lat, c.lon)
                 if(d < 15){
-                    console.log(`rest: ${rest.name} distance ${d}`)
-                restaurantsWithin15km.push(rest)
+                    {/*console.log(`rest: ${rest.name} distance ${d}`) */}
+                    if(!uniqueRestaurants.has(rest.name)){
+                        restaurantsWithin15km.push(rest)
+                        uniqueRestaurants.add(rest.name)
+                    }
                 
                 }
             });
@@ -91,55 +96,66 @@ const Display = () => {
 }
 
     const arr = myFunction(resData)
-
+{/*
     if(isChecked){
         if(previouslyShownRestaurants.length === arr.length){
             setPreviouslyShownRestaurants([])
         }
     }else{
-            if(previouslyShownRestaurants.length === resData.length){
+        if(previouslyShownRestaurants.length === resData.length){
                 setPreviouslyShownRestaurants([])
             }
         }
+    */}
     
-      
-
-     
- 
+    
+    
+    
+    
+    
     function calculateDistance(lat1, lon1, lat2, lon2) {
         const R = 6371; // Earth's radius in kilometers
         const dLat = (lat2 - lat1) * (Math.PI / 180);
         const dLon = (lon2 - lon1) * (Math.PI / 180);
         const a =
-          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-          Math.cos(lat1 * (Math.PI / 180)) *
-            Math.cos(lat2 * (Math.PI / 180)) *
-            Math.sin(dLon / 2) *
-            Math.sin(dLon / 2);
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * (Math.PI / 180)) *
+        Math.cos(lat2 * (Math.PI / 180)) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
         const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         const distance = R * c; // Distance in kilometers
         return distance;
-      }
-   
+    }
+    
+    
+    if (previouslyShownRestaurants.length >= resData.length) {
+        setPreviouslyShownRestaurants([]);
+    }
       
-
-      
-      useEffect(() => {
+    if(isChecked === true){
+        if (previouslyShownRestaurants.length >= arr.length) {
+            setPreviouslyShownRestaurants([]);
+        }
+    }
+    useEffect(() => {
           
           if (isChecked) {
             
          
         const newRandom = generateNewRandomSorted(arr)
-          setPreviouslyShownRestaurants([])
+        if (previouslyShownRestaurants.length >= arr.length) {
+            setPreviouslyShownRestaurants([]);
+        }
 
-          setPreviouslyShownRestaurants([...previouslyShownRestaurants, newRandom])
+          setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
 
         
           setRestaurants(arr[newRandom])
         }else{
             const newRandom = generateNewRandom()
-            setPreviouslyShownRestaurants([])
-            setPreviouslyShownRestaurants([...previouslyShownRestaurants, newRandom])
+           
+            setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
             setRestaurants(resData[newRandom])
         }
       }, [isChecked, resData]);
@@ -147,12 +163,6 @@ const Display = () => {
       
 
     useEffect( () => {
-
-    
-       {/*}  const newRandom = generateNewRandom()
-         setPreviouslyShownRestaurants([...previouslyShownRestaurants, newRandom])
-    setRestaurants(resData[newRandom]) */}
-        
 
          if ('geolocation' in navigator) {
             navigator.geolocation.getCurrentPosition(
@@ -190,26 +200,26 @@ const Display = () => {
     const scrollDiv = document.getElementById('card')
 
     const handleClick = () => {
-       
-
-
-        const genRand = generateNewRandom()
-        const sortedRandom = generateNewRandomSorted(arr)
-        /////
-        if(isChecked){
-            setPreviouslyShownRestaurants([...previouslyShownRestaurants, sortedRandom])
-            setRestaurants(arr[sortedRandom])
-        }else{
-            setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand])
-
-            setRestaurants(resData[genRand])
+        const genRand = generateNewRandom();
+        const sortedRandom = generateNewRandomSorted(arr);
+    
+        if (isChecked) {
+            
+            setPreviouslyShownRestaurants([...previouslyShownRestaurants, sortedRandom]);
+            console.log(sortedRandom, arr[sortedRandom].name);
+            setRestaurants(arr[sortedRandom]);
+        } else {
+           
+            setPreviouslyShownRestaurants([...previouslyShownRestaurants, genRand]);
+            console.log(genRand, resData[genRand].name);
+            setRestaurants(resData[genRand]);
         }
-        
-        
-       if(scrollDiv){
-        scrollDiv.scrollTop = 0
-       }
+    
+        if (scrollDiv) {
+            scrollDiv.scrollTop = 0;
+        }
     }
+    
 
 
 {/*}
@@ -315,8 +325,8 @@ const Display = () => {
 
 
         {/* BUTTON */}
-        <div className=''>
-            <button onClick={handleClick} className=' p-4 rounded-md font-poppins text-3xl bg-red-500 text-white font-medium mb-5'>Next Restaurant</button>
+        <div className='pt-3'>
+            <button onClick={handleClick} className=' p-4 rounded-md font-poppins text-3xl bg-red-500 text-white font-medium '>Next Restaurant</button>
         </div>
 
     </div>
