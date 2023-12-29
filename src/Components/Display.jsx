@@ -7,6 +7,7 @@ import Distance from './Distance'
 
 
 
+
 const Display = () => {
 
     const [restaurants, setRestaurants] = useState({})
@@ -79,34 +80,24 @@ const Display = () => {
 }
 
     const arr = myFunction(resData)
-{/*
-    if(isChecked){
-        if(previouslyShownRestaurants.length === arr.length){
-            setPreviouslyShownRestaurants([])
-        }
-    }else{
-        if(previouslyShownRestaurants.length === resData.length){
-                setPreviouslyShownRestaurants([])
-            }
-        }
-    */}
-
     
     const generateNewRandom = () => {
         let newRandom = Math.floor(Math.random() * resData.length);
+        {/*
         while (previouslyShownRestaurants.includes(newRandom)) {
             newRandom = Math.floor(Math.random() * resData.length);
         }
-       
+        */}
         return newRandom;
     };
 
     const generateNewRandomSorted = (array) => {
         let newRandom = Math.floor(Math.random() * array.length);
+        {/*
         while (previouslyShownRestaurants.includes(newRandom)) {
             newRandom = Math.floor(Math.random() * array.length);
         }
-    
+        */}
         return newRandom;
     };
     
@@ -129,15 +120,17 @@ const Display = () => {
     useEffect(() => {
           
         if (isChecked) { 
-            const newRandom = generateNewRandomSorted(arr)
             
-                if (previouslyShownRestaurants.length >= arr.length) {
-                    setPreviouslyShownRestaurants([]);
-                }
-            
-          setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
-          setRestaurants(arr[newRandom])
-        }else{
+                    const newRandom = generateNewRandomSorted(arr)
+                    
+                        if (previouslyShownRestaurants.length >= arr.length) {
+                            setPreviouslyShownRestaurants([]);
+                        }
+                    
+                setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
+                setRestaurants(arr[newRandom])
+        }  
+        else{
             const newRandom = generateNewRandom()           
             setPreviouslyShownRestaurants(previouslyShownRestaurants => [...previouslyShownRestaurants, newRandom])
             setRestaurants(resData[newRandom])
@@ -211,17 +204,26 @@ const Display = () => {
     console.log(previouslyShownRestaurants.length);
     console.log(resData.length);
 */}
+
+
   return (
     <div className=' flex flex-col  justify-between items-center' style={{height:"85vh"}}> 
 
-        <div className='pt-4 flex items-center'>  
-            <span class="ms-3 text-md font-medium text-gray-900 pr-4">Restaurants near me</span>
-            <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer" id='togglebtn' onChange={handleToggleBtn}/>
-            <div class="w-11 h-6 bg-gray-200  dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-            </label>
-        </div> 
+        
+          {
+            arr.length > 0 && (
+              <div className='pt-4 flex items-center'>  
+                <span class="ms-3 text-md font-medium text-gray-900 pr-4">Restaurants near me</span>
+                <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer" id='togglebtn' onChange={handleToggleBtn}/>
+                <div class="w-11 h-6 bg-gray-200  dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                </label>
+            </div> 
+            )  
+          }
+            
 
+    
         <div id='card' className='border w-11/12 h-3/4 bg-white mt-5 rounded-lg shadow-[#444444aa] shadow-lg overflow-y-scroll md:w-2/4 '>  {/* card */}
             
             <div className='w-full h-3/5 flex items-center justify-center '>
@@ -306,6 +308,7 @@ const Display = () => {
                     
             </div>
         </div>
+       
 
 
         {/* BUTTON */}
@@ -315,6 +318,7 @@ const Display = () => {
 
     </div>
   )
+
 }
 
 export default Display
